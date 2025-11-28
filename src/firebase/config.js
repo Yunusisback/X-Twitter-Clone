@@ -1,32 +1,30 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {getAuth,GoogleAuthProvider} from "firebase/auth";
-import {getFirestore} from "firebase/firestore"
-import { getStorage } from "firebase/storage"
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import { getAuth, GoogleAuthProvider } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
+import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBmOdyNk94NWikoWmRpDX6Kq-MRXRITXjg",
-  authDomain: "x-twitter-clone-e0192.firebaseapp.com",
-  projectId: "x-twitter-clone-e0192",
-  storageBucket: "x-twitter-clone-e0192.firebasestorage.app",
-  messagingSenderId: "607464629071",
-  appId: "1:607464629071:web:be2159b227fe400c531b3a"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-// auth alanın referansını alma
+// Auth referansı
 export const auth = getAuth(app);
 
-// Google sağlayıcısı oluşturma
+// Google sağlayıcısı
 export const provider = new GoogleAuthProvider();
 
-// veritabanının referansını alma
+// Veritabanı referansı
 export const db = getFirestore(app);
 
-// medya depolama alanının referansını alma
+// Depolama referansı
 export const storage = getStorage(app);
