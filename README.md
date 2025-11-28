@@ -18,14 +18,22 @@ A robust social media application that replicates the core functionality of X (f
 ## 🛠️ Tech Stack
 
 This project leverages modern frontend tools combined with a powerful serverless backend.
+## 🛠️ Tech Stack
 
-| Category   | Technologies |
+| Category | Technologies |
+
 | **Framework** | React 19 (Vite) |
+
 | **Routing** | React Router DOM v7 |
+
 | **Backend (BaaS)** | Firebase (Auth, Firestore, Storage) |
+
 | **Styling** | Tailwind CSS / CSS Modules |
+
 | **Icons** | React Icons |
+
 | **Notifications** | React Toastify |
+
 | **Utilities** | UUID, Moment.js, Date-fns |
 
 
