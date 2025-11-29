@@ -4,7 +4,6 @@ A robust social media application that replicates the core functionality of X (f
 
 ![x clone](https://github.com/user-attachments/assets/15a0fb59-940d-4778-b4d8-031a1d2f1170)
 
-
 ## ✨ Features
 
 * **🔐 Secure Authentication:** Seamless login/signup integration using **Google Authentication** (Firebase Auth).
@@ -17,34 +16,16 @@ A robust social media application that replicates the core functionality of X (f
 
 ## 🛠️ Tech Stack
 
-This project leverages modern frontend tools combined with a powerful serverless backend.
-## 🛠️ Tech Stack
-
 | Category | Technologies |
-
+| :--- | :--- |
 | **Framework** | React 19 (Vite) |
-
 | **Routing** | React Router DOM v7 |
-
 | **Backend (BaaS)** | Firebase (Auth, Firestore, Storage) |
-
 | **Styling** | Tailwind CSS / CSS Modules |
-
 | **Icons** | React Icons |
-
 | **Notifications** | React Toastify |
-
 | **Utilities** | UUID, Moment.js, Date-fns |
-
-
-
-### Prerequisites
-
-* Node.js (v18 or higher)
-* A Firebase Project (Free tier)
-
 
 ## 🤝 Contributing
 
 Contributions are always welcome! Feel free to fork the repo and submit a PR.
-
